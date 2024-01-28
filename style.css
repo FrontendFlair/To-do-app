@@ -123,6 +123,9 @@ li {
 }
 
 @media (max-width:450px) {
+    body{
+        padding:0;
+    }
     .container{
         max-width: 320px;
     }
