@@ -123,15 +123,11 @@ li {
 }
 
 @media (max-width:450px) {
-    body{
-        padding:0;
-        padding-top:20%;
-    }
     .container{
         max-width: 320px;
+        width:100%;
     }
     .inputBox{
-        min-width: 320px;
         width:100%;
     }
 }
