@@ -25,8 +25,7 @@ li {
 }
 
 .container {
-    max-width: 350px;
-    width: 100%;
+    width: 350px;
     height: auto;
 }
 
@@ -121,4 +120,10 @@ li {
 .checked{
     color: #bfbfbf;
     text-decoration: line-through;
+}
+
+@media (max-width:450px) {
+    .container{
+        width: 100%;
+    }
 }
