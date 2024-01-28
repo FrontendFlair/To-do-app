@@ -124,6 +124,10 @@ li {
 
 @media (max-width:450px) {
     .container{
-        width: 320px;
+        max-width: 320px;
+    }
+    .inputBox{
+        max-width: 320px;
+        width:100%;
     }
 }
