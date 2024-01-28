@@ -130,7 +130,7 @@ li {
         max-width: 320px;
     }
     .inputBox{
-        max-width: 320px;
+        min-width: 320px;
         width:100%;
     }
 }
