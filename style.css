@@ -10,6 +10,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 20px;
     padding-top: 10%;
     background: #4a69bd;
 }
@@ -86,16 +87,21 @@ li {
     background: #4a69bd;
     padding: 10px;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-radius: 3px;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     right: 20px;
+}
+
+.list-container li span:nth-child(2)
+{
+    right: 65px;
 }
 
 .list-container li input{
