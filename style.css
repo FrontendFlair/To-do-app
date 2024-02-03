@@ -45,7 +45,7 @@ li {
 
 .inputBox input {
     padding: 10px;
-    flex: 1;
+    width: 100%;
     font-size: 1rem;
     border-radius: 4px;
     caret-color: #4a69bd;
